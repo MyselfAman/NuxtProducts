@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    @apply bg-gray-700;
+}
+
+@layer components {
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 4rem;
+        align-items: center;
+        border-bottom: 1px solid whitesmoke;
+
+    }
+
+    .navbarMenu{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbarLink{
+        padding: 0 2rem;
+    }
+
+    .card{
+        margin: 8px 8px;
+        padding: 8px ;
+        border: 1px solid #5CFF5C;
+    }
+
+    .productDashboard{
+        display: flex;
+        /* flex-direction: row; */
+    }
+
+    .homePage{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+
+
+
+
+
+
+
+
+
+}
